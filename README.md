@@ -18,4 +18,13 @@
 # git branch (to check branch name)
 # git branch -M <-branchname-> (to rename a branch name, this renames whatever branch you are in to branchname)
 # git switch <-branchname-> (to switch to a different branch )
-# git checkout -b <-branchname-> (to create a new branch)
+# git checkout -b <-branchname-> (to create a new branch, and you will be moved into that branch as well)
+# git checkout -d <-branchname-> (to delete the branch)
+
+# MERGING CODE IN GIT
+
+# git diff <-branchname-> (check the diff between the current branch and the branchname )
+# git merge <-branchname-> (merge the the code changes from branchname to your current branch)
+
+
+# git pull origin main (to download the content from github to the local repo)
