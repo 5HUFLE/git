@@ -26,5 +26,16 @@
 # git diff <-branchname-> (check the diff between the current branch and the branchname )
 # git merge <-branchname-> (merge the the code changes from branchname to your current branch)
 
-
 # git pull origin main (to download the content from github to the local repo)
+
+# UNDOING CHANGED
+# FOR FOR ADDED NOT COMMITTED FILE
+# git reset <-filename-> (to reset the file that has been added but not committed)
+# git reset (to reset all the files)
+
+# FOR COMMITTED FILE (most recent)
+# git reset HEAD~1
+
+# FOR COMITTED FILE (for many commits)
+# git reset <-commitHash-> (commit has is the commit you want to go to can find it in git log)
+# git reset --hard <-commitHash-> (to change the code itself inside vscode to the has version)
