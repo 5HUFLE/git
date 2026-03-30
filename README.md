@@ -8,11 +8,14 @@
 
 # git push -u origin main (if you dont want to write git push origin main every time, you can create an upstream using -u which makes the push default to origin main, so you can just write git push from next time on)
 
-# git branch -M <-branchname-> (to rename a branch name, this renames whatever branch you are in to branchname)
-
-
-
 # git init (if you created a new folder locally for your own project then you can first make git track it using git init)
 
 # git remote add origin <-link-> (this will sync your local project to the repo you created and sets your origin to the link you put)
 # git remote -v (to verify remote)
+
+# BRANCHES IN GIT
+
+# git branch (to check branch name)
+# git branch -M <-branchname-> (to rename a branch name, this renames whatever branch you are in to branchname)
+# git switch <-branchname-> (to switch to a different branch )
+# git checkout -b <-branchname-> (to create a new branch)
