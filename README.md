@@ -37,5 +37,5 @@
 # git reset HEAD~1
 
 # FOR COMITTED FILE (for many commits)
-# git reset <-commitHash-> (commit has is the commit you want to go to can find it in git log)
-# git reset --hard <-commitHash-> (to change the code itself inside vscode to the has version)
+# git reset <-commitHash-> (commit hash is the commit you want to go to, you can find it in the git log)
+# git reset --hard <-commitHash-> (to change the code itself inside vscode to the hash version)
