@@ -24,7 +24,7 @@
 # MERGING CODE IN GIT
 
 # git diff <-branchname-> (check the diff between the current branch and the branchname )
-# git merge <-branchname-> (merge the the code changes from branchname to your current branch)
+# git merge <-branchname-> (merge the the code changes from branchname to your current branch,  E.g., if you are on 'main' and run 'git merge branch1', it merges branch1 into main)
 
 # git pull origin main (to download the content from github to the local repo)
 
